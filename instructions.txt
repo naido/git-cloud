@@ -1,0 +1,11 @@
+echo "# git-cloud" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/naido/git-cloud.git
+git push -u origin main
+
+git remote add origin https://github.com/naido/git-cloud.git
+git branch -M main
+git push -u origin main
